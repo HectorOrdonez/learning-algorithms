@@ -1,5 +1,7 @@
 <?php
 
+namespace HectorOrdonez\LearningAlgorithms\ConvertStringToCamelCase\tests;
+
 use HectorOrdonez\LearningAlgorithms\ConvertStringToCamelCase\Main;
 use PHPUnit\Framework\TestCase;
 
