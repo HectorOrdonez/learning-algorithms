@@ -6,6 +6,8 @@ class Main
 {
     public function isPangram(string $str): bool
     {
-        return true;
+        $regExp = implode(')(?=.*', str_split('abcdefghijklmnopqrstuvwxyz'));
+
+        return preg_match("/(?=.*$regExp)/im", $str);
     }
 }
